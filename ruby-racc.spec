@@ -11,6 +11,7 @@ URL: http://i.loveruby.net/en/racc.html
 Source0: %{rname}-%{version}-all.tar.bz2
 License: LGPL
 Group: Development/Ruby
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: ruby >= 1.8
 BuildRequires: ruby-devel
 BuildArch: noarch 
