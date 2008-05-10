@@ -1,7 +1,7 @@
 %define rname racc
 %define name ruby-%{rname}
 %define version 1.4.5
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: LALR(1) Parser Generator
 Name: %{name}
@@ -31,6 +31,10 @@ ruby setup.rb setup
 rm -rf %buildroot
 ruby setup.rb install --prefix=%buildroot
 
+%check
+cd packages/racc/test
+ruby test.rb
+
 %clean
 rm -rf %buildroot
 
@@ -38,5 +42,5 @@ rm -rf %buildroot
 %defattr(-,root,root)
 %{ruby_sitelibdir}/racc
 %{_bindir}/*
-%doc README.*
+%doc README.* packages/racc/NEWS.* packages/racc/doc.*
 
