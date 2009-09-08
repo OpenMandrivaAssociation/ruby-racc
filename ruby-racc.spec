@@ -1,7 +1,7 @@
 %define rname racc
 %define name ruby-%{rname}
 %define version 1.4.5
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: LALR(1) Parser Generator
 Name: %{name}
