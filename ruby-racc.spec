@@ -44,3 +44,44 @@ rm -rf %buildroot
 %{_bindir}/*
 %doc README.* packages/racc/NEWS.* packages/racc/doc.*
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.4.5-5mdv2010.0
++ Revision: 433545
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.4.5-4mdv2009.0
++ Revision: 269235
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sat May 10 2008 Pascal Terjan <pterjan@mandriva.org> 1.4.5-3mdv2009.0
++ Revision: 205434
+- Add check section and some missing doc
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.4.5-2mdv2008.1
++ Revision: 140755
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Apr 22 2007 Pascal Terjan <pterjan@mandriva.org> 1.4.5-2mdv2008.0
++ Revision: 16765
+- Use Development/Ruby group
+- Use std macros
+
+
+* Mon Nov 21 2005 Pascal Terjan <pterjan@mandriva.org> 1.4.5-1mdk
+- 1.4.5
+- mkrel
+
+* Sun Apr 17 2005 Pascal Terjan <pterjan@mandrake.org> 1.4.4-3mdk
+- fix lib64
+
+* Fri Oct 22 2004 Pascal Terjan <pterjan@mandrake.org> 1.4.4-2mdk
+- rebuild
+
+* Thu Dec 25 2003 Pascal Terjan <CMoi@tuxfamily.org> 1.4.4-1mdk 
+- first mdk release
+
