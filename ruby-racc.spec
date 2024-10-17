@@ -7,7 +7,7 @@ Summary: LALR(1) Parser Generator
 Name: %{name}
 Version: %{version}
 Release: %{release}
-URL: http://i.loveruby.net/en/racc.html
+URL: https://i.loveruby.net/en/racc.html
 Source0: %{rname}-%{version}-all.tar.bz2
 License: LGPL
 Group: Development/Ruby
